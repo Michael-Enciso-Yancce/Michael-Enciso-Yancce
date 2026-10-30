@@ -53,23 +53,34 @@ Desarrollador de software enfocado en construir sistemas y flujos de trabajo de 
 
 **Kimen · Automatización y soporte de sistemas · Abr. 2025 – Actualidad**
 
-Automatizo el envío de correos desde Google Sheets, integro una API externa con Moodle para verificar calificaciones, doy soporte a usuarios y mantengo sitios WordPress.
+- Automatizo el envío de correos electrónicos a partir de Google Sheets, con procesamiento y manipulación de los datos de las hojas.
+- Integré una API externa con Moodle para verificar calificaciones e intercambiar información entre ambos sistemas.
+- Doy soporte de sistemas y atiendo incidencias para mantener la continuidad de las actividades de los usuarios.
+- Mantengo y actualizo páginas de WordPress.
 
 **Geor Fábrica de Software S.A.C. · Backend e IA aplicada (por proyecto) · Feb. 2025 – Mar. 2025**
 
-Implementé un asistente LLM en Laravel conectado por API a herramientas de un ERP multi-tenant, enfocado en facturación. Se invoca con menciones en comentarios, limita las herramientas según módulo y permisos del usuario, reutiliza la autorización existente y contempla casos límite y errores de ejecución. Planifiqué los casos límite y escenarios de error para definir cómo responde el asistente ante operaciones no permitidas y fallos. Estado: desplegado en servidor de pruebas; la publicación en producción depende de Geor.
+- Implementé un asistente basado en un LLM en Laravel, conectado por API a herramientas de un ERP multi-tenant, con enfoque en facturación.
+- Desarrollé la interacción mediante menciones en comentarios, delimitando las herramientas disponibles según el módulo y los permisos del usuario.
+- Incorporé verificaciones de permisos dentro de las herramientas, reutilizando la autorización existente, y contemplé las operaciones entre facturación y caja chica para impedir acciones fuera del acceso del usuario.
+- Planifiqué casos límite y escenarios de error para definir cómo responde el asistente ante operaciones no permitidas y fallos de ejecución.
+- *Estado: desplegado en servidor de pruebas; publicación en producción pendiente de decisión de Geor.*
 
 **Geor Fábrica de Software S.A.C. · Desarrollador Backend · Jul. 2023 – Feb. 2025 · Remoto**
 
-APIs RESTful para un ERP multi-tenant con Laravel (SOLID, MVC, MySQL, Eloquent), un microservicio integrado por JWT con procesos en segundo plano, y APIs con .NET Core y ABP en N capas y DDD, con documentación y apoyo en integraciones con Vue.js.
+- Desarrollé APIs RESTful para un ERP multi-tenant con Laravel, aplicando SOLID y MVC; gestioné datos con MySQL y Eloquent ORM.
+- Construí un microservicio integrado con el ERP mediante autenticación JWT e implementé procesos en segundo plano para tareas internas.
+- Desarrollé APIs con .NET Core y ASP.NET Boilerplate (ABP), con arquitectura en N capas y DDD; documenté las APIs y colaboré en integraciones con Vue.js y refactorización.
 
 **D & Arkam S.A.C. · Desarrollador Backend · Ene. 2023 – Jun. 2023 · Presencial**
 
-Aplicación de gestión de productos con paneles de control en PHP, Laravel y MySQL, y APIs documentadas con JWT.
+- Desarrollé una aplicación de administración y gestión de productos con paneles de control, usando PHP, Laravel y MySQL.
+- Implementé y documenté APIs con autenticación JWT y participé en el despliegue de la aplicación web.
 
 **Jhardsystex · Desarrollador Full-Stack · Ago. 2022 – Dic. 2022 · Remoto**
 
-Sistema contable de ingresos y egresos con PHP, JavaScript y MySQL, interfaces con jQuery y Bootstrap, y diagramas UML.
+- Desarrollé funcionalidades para un sistema contable de ingresos y egresos con PHP, JavaScript y MySQL.
+- Construí interfaces con jQuery y Bootstrap y elaboré diagramas UML de los casos y procesos del proyecto.
 
 ## Educación
 
