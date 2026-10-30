@@ -68,20 +68,7 @@ Sistema contable de ingresos y egresos con PHP, JavaScript y MySQL, interfaces c
 
 ## Proyectos personales
 
-### [Portfolio Management System](https://github.com/Michael-Enciso-Yancce/portfolio)
-
-API REST para gestionar un portafolio profesional, en **Java 17 + Spring Boot** con **arquitectura hexagonal**.
-
-- Autenticación JWT y Google OAuth2, roles (RBAC) y seguridad por método con `@PreAuthorize`.
-- Proyectos con habilidades, educación, experiencia, catálogos y carga de archivos.
-- Endpoints públicos para un portafolio web, Swagger/OpenAPI y migraciones con Flyway.
-- Despliegue con Docker Compose (app + MySQL).
-
-### [Task API con Laravel](https://github.com/Michael-Enciso-Yancce/laravel-mid-level-project-task-api-Michael)
-
-API de tareas en **Laravel 10 (PHP 8.1)** con filtros dinámicos, logs de auditoría, documentación con Swagger y monitoreo con Telescope.
-
-### [Nexo](https://github.com/Michael-Enciso-Yancce/Nexo) · proyecto personal
+### Nexo · aplicación de escritorio
 
 Aplicación de escritorio para organizar mi día a día, hecha con **React, TypeScript y Electron**, con base de datos local **SQLite (Drizzle ORM)**. Los datos quedan en mi equipo, con exportación y copias automáticas.
 
@@ -92,3 +79,9 @@ Aplicación de escritorio para organizar mi día a día, hecha con **React, Type
 - Funciones de IA opcionales (se configuran aparte), pruebas automatizadas y documentación de decisiones del producto.
 
 `React` `TypeScript` `Electron` `SQLite` `Drizzle`
+
+### pdf-rag · proyecto de aprendizaje
+
+Proyecto para aprender y entender el proceso y el flujo de un sistema **RAG sobre documentos PDF** (Retrieval-Augmented Generation). Base backend en **Java 21 y Spring Boot 3** con **PostgreSQL** (Docker Compose), seguridad con Spring Security y OAuth2 resource server, validación y pruebas con Testcontainers.
+
+`Java` `Spring Boot` `PostgreSQL` `RAG` `Docker`
