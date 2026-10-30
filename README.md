@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white" alt="GitLab">
 </p>
 
 <p align="center">
@@ -26,7 +27,7 @@
 
 ## Sobre mí
 
-Soy desarrollador de software y me dedico a construir sistemas y flujos de trabajo: desde la API y las reglas de negocio hasta las integraciones y automatizaciones que los conectan. Trabajo con ERPs multi-tenant en Laravel y .NET Core, asistentes de IA conectados a herramientas reales con permisos por usuario, y procesos que conectan plataformas como Google Sheets y Moodle. Me importa que lo que construyo se pueda probar: pruebo los casos límite y los errores antes de entregar. Busco posiciones remotas en sistemas, backend e IA aplicada.
+Desarrollador de software enfocado en construir sistemas y flujos de trabajo de punta a punta: APIs, reglas de negocio, integraciones y automatizaciones. Trabajo con Laravel, .NET Core y Spring Boot, integro IA con permisos por usuario y pruebo los casos límite antes de entregar. Busco posiciones remotas en sistemas, backend e IA aplicada.
 
 ## Qué hago
 
@@ -41,27 +42,33 @@ Soy desarrollador de software y me dedico a construir sistemas y flujos de traba
 |---|---|
 | Backend | PHP, Laravel, C#, ASP.NET Core, ASP.NET Boilerplate (ABP), Java, Spring Boot |
 | Frontend | TypeScript, JavaScript, React, Vue.js, HTML, CSS, jQuery, Bootstrap |
-| Datos e integración | MySQL, PostgreSQL, SQLite, Eloquent ORM, APIs RESTful, JWT, Google Sheets, Moodle |
+| Bases de datos | MySQL, PostgreSQL, SQLite, Eloquent ORM, Spring Data JPA (Hibernate), Drizzle ORM |
+| Integración | APIs RESTful, JWT, Google Sheets, Moodle |
 | Testeo y calidad | Pruebas unitarias, pruebas automatizadas, casos límite y escenarios de error, Postman, Testcontainers, documentación técnica |
 | Arquitectura | Multi-tenant, SOLID, MVC, DDD, hexagonal, microservicios, procesos en segundo plano, refactorización |
 | IA | Integración de LLMs por API, tool calling, permisos de ejecución, manejo de tokens, parámetros de generación, RAG |
-| Herramientas | Git, GitHub, Docker, Postman, Visual Studio Code |
+| Herramientas | Git, GitHub, GitLab, Docker, Postman, Visual Studio Code |
 
 ## Experiencia
 
-**Kimen** · Automatización y soporte de sistemas · *Abr. 2025 – Actualidad*
+**Kimen · Automatización y soporte de sistemas · Abr. 2025 – Actualidad**
+
 Automatizo el envío de correos desde Google Sheets, integro una API externa con Moodle para verificar calificaciones, doy soporte a usuarios y mantengo sitios WordPress.
 
-**Geor Fábrica de Software S.A.C.** · Backend e IA aplicada (por proyecto) · *Feb. 2025 – Mar. 2025*
+**Geor Fábrica de Software S.A.C. · Backend e IA aplicada (por proyecto) · Feb. 2025 – Mar. 2025**
+
 Implementé un asistente LLM en Laravel conectado por API a herramientas de un ERP multi-tenant, enfocado en facturación. Se invoca con menciones en comentarios, limita las herramientas según módulo y permisos del usuario, reutiliza la autorización existente y contempla casos límite y errores de ejecución. Planifiqué los casos límite y escenarios de error para definir cómo responde el asistente ante operaciones no permitidas y fallos. Estado: desplegado en servidor de pruebas; la publicación en producción depende de Geor.
 
-**Geor Fábrica de Software S.A.C.** · Desarrollador Backend · *Jul. 2023 – Feb. 2025 · Remoto*
+**Geor Fábrica de Software S.A.C. · Desarrollador Backend · Jul. 2023 – Feb. 2025 · Remoto**
+
 APIs RESTful para un ERP multi-tenant con Laravel (SOLID, MVC, MySQL, Eloquent), un microservicio integrado por JWT con procesos en segundo plano, y APIs con .NET Core y ABP en N capas y DDD, con documentación y apoyo en integraciones con Vue.js.
 
-**D & Arkam S.A.C.** · Desarrollador Backend · *Ene. 2023 – Jun. 2023*
+**D & Arkam S.A.C. · Desarrollador Backend · Ene. 2023 – Jun. 2023 · Presencial**
+
 Aplicación de gestión de productos con paneles de control en PHP, Laravel y MySQL, y APIs documentadas con JWT.
 
-**Jhardsystex** · Desarrollador Full-Stack · *Ago. 2022 – Dic. 2022 · Remoto*
+**Jhardsystex · Desarrollador Full-Stack · Ago. 2022 – Dic. 2022 · Remoto**
+
 Sistema contable de ingresos y egresos con PHP, JavaScript y MySQL, interfaces con jQuery y Bootstrap, y diagramas UML.
 
 ## Educación
