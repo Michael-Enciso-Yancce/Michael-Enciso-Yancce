@@ -1,8 +1,8 @@
 <h1 align="center">Michael Enciso Yancce</h1>
 
 <p align="center">
-  <b>Ingeniero de software con IA · Backend, APIs y automatización</b><br>
-  Construyo APIs y sistemas empresariales multi-tenant, y asistentes de IA con permisos y control de acceso.
+  <b>Ingeniero de software con IA · Sistemas, flujos y automatización</b><br>
+  Diseño y construyo sistemas empresariales, APIs y flujos que funcionan de punta a punta, y los pruebo.
 </p>
 
 <p align="center">
@@ -26,13 +26,14 @@
 
 ## Sobre mí
 
-Desarrollo software desde 2022. Me especializo en backend, APIs e integración de sistemas: ERPs multi-tenant con Laravel y .NET Core, automatizaciones y LLMs conectados a herramientas reales con permisos por usuario. Trabajo en remoto desde hace años y también construyo proyectos propios con IA y pruebas unitarias. Busco posiciones remotas en software, backend e IA aplicada.
+Soy desarrollador de software y me dedico a construir sistemas y flujos de trabajo: desde la API y las reglas de negocio hasta las integraciones y automatizaciones que los conectan. Trabajo con ERPs multi-tenant en Laravel y .NET Core, asistentes de IA conectados a herramientas reales con permisos por usuario, y procesos que conectan plataformas como Google Sheets y Moodle. Me importa que lo que construyo se pueda probar: pruebo los casos límite y los errores antes de entregar. Busco posiciones remotas en sistemas, backend e IA aplicada.
 
 ## Qué hago
 
-- **APIs y sistemas empresariales:** APIs RESTful con JWT, arquitectura en capas, SOLID y DDD, sobre ERPs multi-tenant.
+- **Sistemas y APIs empresariales:** APIs RESTful con JWT, arquitectura en capas, SOLID y DDD, sobre ERPs multi-tenant.
+- **Flujos y automatización:** procesos en segundo plano, integraciones entre sistemas y automatizaciones sobre Google Sheets y Moodle.
 - **IA aplicada:** asistentes LLM con tool calling, contexto por módulo y verificación de permisos antes de ejecutar cualquier acción.
-- **Automatización e integración:** Google Sheets, Moodle y procesos en segundo plano.
+- **Testeo y calidad:** pruebas unitarias y automatizadas, y planificación de casos límite y escenarios de error (por ejemplo, qué debe hacer el asistente de IA ante operaciones no permitidas o fallos de ejecución).
 
 ## Stack
 
@@ -40,8 +41,9 @@ Desarrollo software desde 2022. Me especializo en backend, APIs e integración d
 |---|---|
 | Backend | PHP, Laravel, C#, ASP.NET Core, ASP.NET Boilerplate (ABP), Java, Spring Boot |
 | Frontend | TypeScript, JavaScript, React, Vue.js, HTML, CSS, jQuery, Bootstrap |
-| Datos e integración | MySQL, Eloquent ORM, APIs RESTful, JWT, Google Sheets, Moodle |
-| Arquitectura y calidad | Multi-tenant, SOLID, MVC, DDD, hexagonal, microservicios, procesos en segundo plano, refactorización, pruebas unitarias, documentación técnica |
+| Datos e integración | MySQL, PostgreSQL, SQLite, Eloquent ORM, APIs RESTful, JWT, Google Sheets, Moodle |
+| Testeo y calidad | Pruebas unitarias, pruebas automatizadas, casos límite y escenarios de error, Postman, Testcontainers, documentación técnica |
+| Arquitectura | Multi-tenant, SOLID, MVC, DDD, hexagonal, microservicios, procesos en segundo plano, refactorización |
 | IA | Integración de LLMs por API, tool calling, permisos de ejecución, manejo de tokens, parámetros de generación, RAG |
 | Herramientas | Git, GitHub, Docker, Postman, Visual Studio Code |
 
@@ -51,7 +53,7 @@ Desarrollo software desde 2022. Me especializo en backend, APIs e integración d
 Automatizo el envío de correos desde Google Sheets, integro una API externa con Moodle para verificar calificaciones, doy soporte a usuarios y mantengo sitios WordPress.
 
 **Geor Fábrica de Software S.A.C.** · Backend e IA aplicada (por proyecto) · *Feb. 2025 – Mar. 2025*
-Implementé un asistente LLM en Laravel conectado por API a herramientas de un ERP multi-tenant, enfocado en facturación. Se invoca con menciones en comentarios, limita las herramientas según módulo y permisos del usuario, reutiliza la autorización existente y contempla casos límite y errores de ejecución. Estado: desplegado en servidor de pruebas; la publicación en producción depende de Geor.
+Implementé un asistente LLM en Laravel conectado por API a herramientas de un ERP multi-tenant, enfocado en facturación. Se invoca con menciones en comentarios, limita las herramientas según módulo y permisos del usuario, reutiliza la autorización existente y contempla casos límite y errores de ejecución. Planifiqué los casos límite y escenarios de error para definir cómo responde el asistente ante operaciones no permitidas y fallos. Estado: desplegado en servidor de pruebas; la publicación en producción depende de Geor.
 
 **Geor Fábrica de Software S.A.C.** · Desarrollador Backend · *Jul. 2023 – Feb. 2025 · Remoto*
 APIs RESTful para un ERP multi-tenant con Laravel (SOLID, MVC, MySQL, Eloquent), un microservicio integrado por JWT con procesos en segundo plano, y APIs con .NET Core y ABP en N capas y DDD, con documentación y apoyo en integraciones con Vue.js.
@@ -76,12 +78,13 @@ Aplicación de escritorio para organizar mi día a día, hecha con **React, Type
 - **Gym:** entrenamientos, rutinas, catálogo, medidas e historial con análisis de progreso.
 - **CV:** perfil, experiencia, preparación para ofertas y seguimiento de postulaciones.
 - **Mensajes:** plantillas por categoría y canal, con variables y copia del texto listo.
-- Funciones de IA opcionales (se configuran aparte), pruebas automatizadas y documentación de decisiones del producto.
+- **Testeo y calidad:** pruebas automatizadas y lint como parte del flujo de desarrollo, y documentación de diagnóstico, criterios de aceptación y decisiones del producto.
+- Funciones de IA opcionales (se configuran aparte).
 
 `React` `TypeScript` `Electron` `SQLite` `Drizzle`
 
 ### pdf-rag · proyecto de aprendizaje
 
-Proyecto para aprender y entender el proceso y el flujo de un sistema **RAG sobre documentos PDF** (Retrieval-Augmented Generation). Base backend en **Java 21 y Spring Boot 3** con **PostgreSQL** (Docker Compose), seguridad con Spring Security y OAuth2 resource server, validación y pruebas con Testcontainers.
+Proyecto para aprender y entender el proceso y el flujo de un sistema **RAG sobre documentos PDF** (Retrieval-Augmented Generation). Base backend en **Java 21 y Spring Boot 3** con **PostgreSQL** (Docker Compose), seguridad con Spring Security y OAuth2 resource server, validación, y preparado para pruebas de integración con Testcontainers.
 
-`Java` `Spring Boot` `PostgreSQL` `RAG` `Docker`
+`Java` `Spring Boot` `PostgreSQL` `RAG` `Docker` `Testcontainers`
